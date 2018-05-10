@@ -13,8 +13,7 @@ import (
 		2.希尔排序比插入排序和选择排序要快得多，并且数组越大，优势越大
 		3.不需要额外的内存
 	思想: 思想是使数组中任意间隔为h 的元素都是有序的
-	时间复杂度：平均每个增幅所带来的比较次数约为N1/5
-
+	时间复杂度：平均每个增幅所带来的比较次数约为N^(1/5), 当h为3n+1时，最快
 */
 func Shell(list []int64, steps ...int) {
 	//h := 3
@@ -36,5 +35,6 @@ func Shell(list []int64, steps ...int) {
 
 func main() {
 	list := algorithm.Random(1000)
-	Shell(list, 16, 8, 2, 1)
+	//3n+1
+	Shell(list, 364, 121, 40, 13, 4, 1)
 }
