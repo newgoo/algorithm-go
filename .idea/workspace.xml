@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0f284f-1530-4134-b6b8-c4fa4aba4fa4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/sort/mergebu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/quick.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sort/merge.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/merge.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +13,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="algorithm" />
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="415967" />
@@ -24,26 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="selection.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/selection.go">
+      <file leaf-file-name="quick.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/quick.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#14#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertion.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/insertion.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="e#14#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -51,8 +42,20 @@
       <file leaf-file-name="shell.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sort/shell.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="220">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <element signature="e#14#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selection.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/selection.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#14#85#0" expanded="true" />
               </folding>
@@ -63,8 +66,8 @@
       <file leaf-file-name="merge.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sort/merge.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="271">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="e#14#85#0" expanded="true" />
               </folding>
@@ -72,20 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sort.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/sort/sort.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="259" column="24" lean-forward="true" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="utils.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#19#50#0" expanded="true" />
               </folding>
@@ -116,10 +110,12 @@
         <option value="$PROJECT_DIR$/sort/base.go" />
         <option value="$PROJECT_DIR$/sort/selection_sort.go" />
         <option value="$PROJECT_DIR$/base.go" />
-        <option value="$PROJECT_DIR$/utils.go" />
         <option value="$PROJECT_DIR$/sort/selection.go" />
         <option value="$PROJECT_DIR$/sort/insertion.go" />
         <option value="$PROJECT_DIR$/sort/shell.go" />
+        <option value="$PROJECT_DIR$/sort/mergebu.go" />
+        <option value="$PROJECT_DIR$/utils.go" />
+        <option value="$PROJECT_DIR$/sort/quick.go" />
         <option value="$PROJECT_DIR$/sort/merge.go" />
       </list>
     </option>
@@ -163,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build merge.go">
+  <component name="RunManager" selected="Go Build.go build quick.go">
     <configuration name="go build insertion.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -228,13 +224,21 @@
       <package value="github.com/newgoo/algorithm" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build selection.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build mergebu.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/sort/selection.go" />
+      <filePath value="$PROJECT_DIR$/sort/mergebu.go" />
       <package value="github.com/newgoo/algorithm" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build quick.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sort/quick.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build shell.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -247,35 +251,46 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build selection.go" />
       <item itemvalue="Go Build.go build insertion.go" />
       <item itemvalue="Go Build.go build shell.go" />
       <item itemvalue="Go Build.go build merge.go" />
+      <item itemvalue="Go Build.go build mergebu.go" />
+      <item itemvalue="Go Build.go build quick.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build quick.go" />
+        <item itemvalue="Go Build.go build mergebu.go" />
         <item itemvalue="Go Build.go build merge.go" />
         <item itemvalue="Go Build.go build insertion.go" />
         <item itemvalue="Go Build.go build shell.go" />
-        <item itemvalue="Go Build.go build selection.go" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.20634921" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info id="Favorites" order="2" sideWeight="0.50107527" side_tool="true" weight="0.25885227" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,10 +309,31 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="79" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sort/mergebu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/mergebu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/mergebu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sort/selection.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -308,13 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/base.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/base.go" />
     <entry file="file://$PROJECT_DIR$/.bzrignore" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -323,37 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/base.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/math/rand/rand.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="323" column="27" lean-forward="true" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/sort/sort.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="259" column="24" lean-forward="true" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#19#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/base.go" />
     <entry file="file://$PROJECT_DIR$/sort/insertion.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -364,10 +364,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="259" column="24" lean-forward="true" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="596" column="21" selection-start-line="596" selection-start-column="21" selection-end-line="596" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/src/github.com/sirupsen/logrus/exported.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.2/libexec/src/math/rand/rand.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/mergebu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sort/shell.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="e#14#85#0" expanded="true" />
           </folding>
@@ -376,18 +411,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/selection.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="30">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#14#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quick.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sort/merge.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="271">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="e#14#85#0" expanded="true" />
           </folding>
