@@ -16,7 +16,7 @@ import (
 		时间复杂度: NlogN
 
 */
-func portion(arr []int64, low, high int) int {
+func portion(arr []int64, low, high int) (l int, h int) {
 	temp := arr[low]
 	for low < high {
 		//从右往左，找到一个比temp小的元素
@@ -32,21 +32,28 @@ func portion(arr []int64, low, high int) int {
 		arr[high] = arr[low]
 	}
 	arr[low] = temp
-	return low
+	//改进三
+	for ; low >= 0 && arr[low] == temp; low-- {
+		l = low
+	}
+	for ; high < len(arr)-1 && arr[high] == temp; high++ {
+		h = high
+	}
+	return l, h
 }
 
 func QuickSort(arr []int64, low, high int) {
 	if low < high {
-		l := portion(arr, low, high)
+		l, h := portion(arr, low, high)
 		QuickSort(arr, low, l-1)
-		QuickSort(arr, l+1, high)
+		QuickSort(arr, h+1, high)
 	}
 	return
 }
 
 func main() {
-	list := algorithm.Random(121)
-	//list := []int64{26, 67, 21, 83, 17, 68}
+	//list := algorithm.Random(102)
+	list := []int64{3, 1, 1, 1, 2}
 	logrus.Info(list)
 	QuickSort(list, 0, len(list)-1)
 	logrus.Info(algorithm.ValidSorting(list))
