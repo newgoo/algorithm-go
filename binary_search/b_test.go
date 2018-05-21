@@ -29,7 +29,7 @@ func TestBinaryTree_Get(t *testing.T) {
 	//数据为[2,3,4,5,6]从0开始索引
 	log.Info("排名为n的节点(select)", Select(root, 3), root)
 
-	log.Info("key为n的节点的排名(rank)", Rank(root, 6), root)
+	log.Info("key为n的节点的排名(rank)", Rank(root, 7), root)
 
 	//前序遍历
 	log.Info("keys链表中指定范围的key，包含low和high", Keys(root, []int64{}, 0, 6))
