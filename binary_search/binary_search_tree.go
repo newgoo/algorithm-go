@@ -1,4 +1,4 @@
-package search
+package binary_search
 
 /*
 	二叉查找树，每个节点又有一个可比较的key
